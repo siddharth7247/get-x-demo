@@ -25,7 +25,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
             height: 20,
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 30),
+            padding: const EdgeInsets.only(left: 30,right: 30),
             child: Text(
               'lbl_address'.tr,
               style: const TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
@@ -60,7 +60,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 70),
+            padding: const EdgeInsets.only(left: 70,right: 70),
             child: Text(
               'lbl_new_address'.tr,
               style: const TextStyle(fontSize: 17),
@@ -68,7 +68,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
           ),
           const Divider(),
           Padding(
-            padding: const EdgeInsets.only(left: 30),
+            padding: const EdgeInsets.only(left: 30,right: 30),
             child: Text(
               'lbl_time'.tr,
               style: const TextStyle(fontSize: 17, fontWeight: FontWeight.bold),

@@ -63,7 +63,7 @@ class LoclizationDemo extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         children: [
           Container(
-            padding: const EdgeInsets.all(8),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical:10 ),
             child: Card(
               color: const Color.fromARGB(255, 8, 56, 10),
               child: Column(
@@ -141,7 +141,7 @@ class LoclizationDemo extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Card(
-                        child: Container(
+                        child: Padding(
                           padding: const EdgeInsets.only(left: 10, right: 10),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.start,
