@@ -1,0 +1,30 @@
+final Map<String, String> arAe = {
+ "lbl_home" : "بيت",
+  "lbl_odering_food" : "طلب الطعام في",
+  "lbl_convenint_palace" : "مكان مناسب",
+  "lbl_hanging_out" : "التسكع",
+  "lbl_charity" : "صدقة",
+  "lbl_hanging_out_dese" : "تناول الطعام في أي مكان تختاره",
+  "lbl_charity_dese" : "مساعدة المحتاجين بالطعام",
+  "lbl_order" : "طلب",
+  "lbl_delivery" : "توصيل",
+  "lbl_payment" : "قسط",
+  "lbl_home_address" : "ركب Iskon ambli، B squre-1",
+  "lbl_office_address" : "كريش تكعيبي، سيندو بهافان ماراج" ,
+  "lbl_new_address" : "إضافة عنوان جديد",
+  "lbl_office" : "مكتب",
+  "lbl_address" : "عنوان",
+  "lbl_time" : "وقت",
+  "lbl_ASAP" : "في اسرع وقت ممكن",
+  "lbl_set_time" : "ضبط الوقت",
+  "lbl_payment_method" : "طريقة الدفع",
+  "lbl_apple_pay" : "أبل تدفع",
+  "lbl_add_info" : "معلومات إضافية",
+  "lbl_name" : "اسم",
+  "lbl_total" : "الإجمالي مع التوصيل 65 ريال سعودي شامل. ضريبة القيمة المضافة",
+  "lbl_pay" : "الدفع والتأكيد",
+  "lbl_google_pay" : "جوجل الدفع",
+  "lbl_cash" : "نقدي"
+
+
+};

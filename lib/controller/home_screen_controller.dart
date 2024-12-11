@@ -62,14 +62,16 @@ class HomeScreenController extends GetxController {
         update(['main']);
         Get.snackbar("Success", "Task Deleted Sccesfully",
             snackPosition: SnackPosition.BOTTOM,
-            backgroundColor: Colors.green.shade300);
+            padding: const EdgeInsets.all(10),
+            margin: const EdgeInsets.all(20),
+            backgroundColor: Colors.green.shade300,);
       }
     } catch (e) {
       isLoding = false;
       update(['main']);
       Get.snackbar("Failure", "UnExpected Error Occured",
           snackPosition: SnackPosition.BOTTOM,
-          backgroundColor: Colors.red.shade300);
+          backgroundColor: Colors.red.shade300,);
     } finally {
       isLoding = false;
     }

@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_demo/controller/home_screen_controller.dart';
@@ -9,6 +11,7 @@ class HomeScreen extends GetWidget<HomeScreenController> {
   // final _apiService = Get.find<ApiServices>();
   @override
   Widget build(BuildContext context) {
+    log("rebuild");
     return Scaffold(
       appBar: AppBar(
         title: const Text("Tasks To Do"),
