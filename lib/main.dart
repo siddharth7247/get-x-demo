@@ -22,10 +22,10 @@ class MyApp extends StatelessWidget {
       translations: AppLocalization(),
       fallbackLocale: const Locale('en', 'US'),
       locale: const Locale('en', 'US'),
-      supportedLocales: const[
+      supportedLocales: const [
         Locale('en', 'US'),
         Locale('ar', 'AE'),
-        Locale('hi','IN')
+        Locale('hi', 'IN')
       ],
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
@@ -41,9 +41,10 @@ class MyApp extends StatelessWidget {
               fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black),
         ),
         textTheme: const TextTheme(
-            displayLarge: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
-            titleLarge: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
-            bodyMedium: TextStyle(fontSize: 25, fontWeight: FontWeight.w400)),
+          displayLarge: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+          titleLarge: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
+          bodyMedium: TextStyle(fontSize: 25, fontWeight: FontWeight.w400),
+        ),
         useMaterial3: true,
       ),
       initialRoute: RouteManager.initialRoute,

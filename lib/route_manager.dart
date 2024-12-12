@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_demo/controller/counter_screen_controller.dart';
 import 'package:getx_demo/views/add_todos.dart';
 import 'package:getx_demo/views/counter_screen.dart';
-import 'package:getx_demo/views/event_bus_demo.dart';
+import 'package:getx_demo/event%20bus/event_bus_demo.dart';
 import 'package:getx_demo/views/home_screen.dart';
 import 'package:getx_demo/views/loclization_demo.dart';
 import 'package:getx_demo/views/payment_screen.dart';
